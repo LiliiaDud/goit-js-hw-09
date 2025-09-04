@@ -16,12 +16,19 @@
   -webkit-text-size-adjust: 100%;
 }
 
-body {
+/*body {
   display: flex;
   flex-direction: column;
   min-width: 100vw;
   min-height: 100vh;
   margin: 0;
+}*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 1128px;
+    margin: 0 auto;
 }
 
 main {
