@@ -3,10 +3,11 @@
 .gallery {
     list-style: none;
     display: grid;
+    width: 1128px;
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
 }
 
 .gallery-item {
