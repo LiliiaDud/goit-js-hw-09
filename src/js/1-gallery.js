@@ -87,7 +87,6 @@ const galleryMarkup = images
   .join('');
 
 gallery.innerHTML = galleryMarkup;
-
 // створила lightbox для всіх посилань 
 const lightbox = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',       
