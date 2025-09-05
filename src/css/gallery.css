@@ -3,9 +3,10 @@
 .gallery {
     list-style: none;
     display: grid;
-    width: 1128px;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
+    min-width: 320px;
+    max-width: 375px;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 44px;
     padding: 0;
     margin: 0 auto;
 }
@@ -32,4 +33,21 @@
 
 .gallery-image:hover {
     transform: scale(1.05);
+}
+
+/* Styles for Tablet devices */
+@media only screen and (min-width: 768px) {
+  .gallery {
+    max-width: 768px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+/* Styles for Desktop devices */
+@media only screen and (min-width: 1200px) {
+  .gallery  {
+    max-width: 1200px;
+    grid-template-columns: repeat(3, 1fr);
+    width: 1128px;
+    gap: 24px;
+  }
 }

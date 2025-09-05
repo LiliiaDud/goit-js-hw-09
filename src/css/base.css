@@ -16,19 +16,11 @@
   -webkit-text-size-adjust: 100%;
 }
 
-/*body {
-  display: flex;
-  flex-direction: column;
-  min-width: 100vw;
-  min-height: 100vh;
-  margin: 0;
-}*/
-
 body {
     display: flex;
     flex-direction: column;
-      min-width: 100vw;
-  min-height: 100vh;
+    min-width: 100vw;
+    min-height: 100vh;
     margin: 0 auto;
     background-color: #F5F5F5;
 }
@@ -39,3 +31,8 @@ main {
 main:has(.back-link) {
   text-align: center;
 }
+
+.main-title {
+  margin-bottom: 20px;
+}
+
